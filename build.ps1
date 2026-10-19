@@ -28,7 +28,7 @@ Write-Host "== 2/7 aapt2 link (emits R.java for the vector icon) =="
     --manifest "$proj\AndroidManifest.xml" `
     -R "$build\res.zip" `
     --min-sdk-version 28 --target-sdk-version 35 `
-    --version-code 43 --version-name 1.4.20 `
+    --version-code 45 --version-name 1.4.22 `
     --java "$build\gen" `
     --auto-add-overlay
 # NOTE: no -A here. aapt2 on Windows writes -A asset entry names with '\'
